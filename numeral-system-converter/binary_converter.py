@@ -8,6 +8,21 @@ class BinaryConverter:
       if self.number[-i-1]=="1": decimal_value+= 2**i
     print(decimal_value)
 
-      
-converter = BinaryConverter("1010110")
-converter.convert_to_decimal()
+  def convert_to_binary(self):
+    max_power = 0
+    while 2 ** (max_power + 1) <= int(self.number):
+      max_power += 1
+
+    binary_value = ""
+    for i in range(max_power, -1, -1):
+      print(i)
+      if int(self.number) - 2 ** i >= 0:
+        binary_value += "1"
+        self.number = int(self.number) - 2 ** i
+      else:
+        binary_value += "0"
+
+    print(binary_value)
+
+#BinaryConverter("1010110").convert_to_decimal()
+BinaryConverter("11").convert_to_binary()
