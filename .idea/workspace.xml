@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aed4bb9-245d-42e3-a362-08290a5b6a3b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/numeral-system-converter/dane" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numeral-system-converter/informatyka_matura_dzial1_zad6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numeral-system-converter/binary_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/numeral-system-converter/binary_converter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
     "Python.binary_converter.executor": "Run",
     "Python.caesar_cipher.executor": "Run",
     "Python.conway's_game_of_life.executor": "Run",
+    "Python.informatyka_matura_dzial1_zad6.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
